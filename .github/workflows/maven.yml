@@ -18,7 +18,7 @@ jobs:
       
       - name: Deploy WAR to Tomcat
         env:
-          TOMCAT_URL: ${{ secrets.TOMCAT_URL }}
+          TOMCAT_URL:  ${{ secrets.TOMCAT_URL }}
           TOMCAT_USER: ${{ secrets.TOMCAT_USERNAME }}
           TOMCAT_PASS: ${{ secrets.TOMCAT_PASSWORD }}
         run: |
