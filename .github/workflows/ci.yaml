@@ -19,5 +19,5 @@ jobs:
 
       - name: install maven
         run: |
-          sudo apt update
-          sudo apt install maven -y
+          sudo yum update
+          sudo yum install maven -y
